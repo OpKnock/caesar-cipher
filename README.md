@@ -1,4 +1,7 @@
-﻿
+# Caesar Cipher
+
+Educational Caesar cipher tool for text encryption and decryption.
+
 ## What It Does
 
 - Encrypt text using Caesar cipher with a specified shift key
@@ -15,9 +18,9 @@ caesar-cipher encrypt "HELLO WORLD" --key 3
 ```
 
 > [!TIP]
-> This project uses [`just`](https://github.com/casey/just) as a command runner. Type `just` to see all available commands.
->
-> Install: `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
+> This project uses `just` as a command runner. Type `just` to see all available commands.
+
+Install: `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
 
 ## Commands
 
@@ -39,6 +42,6 @@ This project includes step-by-step learning materials covering security theory, 
 | [03 - Implementation](learn/03-IMPLEMENTATION.md) | Code walkthrough |
 | [04 - Challenges](learn/04-CHALLENGES.md) | Extension ideas and exercises |
 
+## License
 
-
-
+MIT
